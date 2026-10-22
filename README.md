@@ -6,7 +6,7 @@ for set-top boxes, built once a month from
 
 **→ [Download the latest release](https://github.com/tuxbox-neutrino/images/releases/latest)**
 
-Deutsch: [siehe unten](#deutsch)
+Deutsch: [README.de.md](README.de.md)
 
 ## Boxes
 
@@ -26,30 +26,11 @@ Deutsch: [siehe unten](#deutsch)
 | `SHA256SUMS` | Checksums. Run `sha256sum -c SHA256SUMS` in the download folder. |
 
 Each release names the exact state of build-environment it was built from,
-with a link to it, and lists the packages that changed since the month before.
+with a link to it, and summarises the package changes since the month before.
 
 The "Source code" archives that GitHub adds to every release contain only
-this README. The images are built from build-environment; follow the link
-in the release notes for the source state.
+these README files. The images are built from build-environment; follow the
+link in the release notes for the source state.
 
 Neutrino for a PC (AppImage) is built separately:
 [neutrino-generic-build](https://github.com/tuxbox-neutrino/neutrino-generic-build/releases).
-
-## Deutsch
-
-Fertige Neutrino-Images zum Flashen, einmal im Monat aus
-[build-environment](https://github.com/tuxbox-neutrino/build-environment) gebaut.
-
-**→ [Neuestes Release herunterladen](https://github.com/tuxbox-neutrino/images/releases/latest)**
-
-- `…_multi.zip` – das Image (Kernel und Root-Dateisystem), der normale Download.
-- `…_recovery_emmc.zip` – Recovery-Paket. Nur nötig, wenn die Box ihr
-  Multiboot-Menü nicht mehr erreicht oder sich die Partitionierung ändert.
-  **Kann den gesamten Flash löschen.**
-- `….tuxbox.tar.bz2` – Root-Dateisystem als Archiv, für Entwickler und
-  spezielle Werkzeuge.
-- `SHA256SUMS` – Prüfsummen: `sha256sum -c SHA256SUMS` im Download-Ordner.
-
-Jedes Release verlinkt den Stand von build-environment, aus dem es gebaut
-wurde. Die „Source code“-Archive, die GitHub an jedes Release hängt,
-enthalten nur diese README.
