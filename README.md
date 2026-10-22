@@ -4,7 +4,7 @@ Ready-to-flash [Neutrino](https://github.com/tuxbox-neutrino/neutrino) images
 for set-top boxes, built once a month from
 [build-environment](https://github.com/tuxbox-neutrino/build-environment).
 
-**→ [Download the latest release](https://github.com/tuxbox-neutrino/tuxbox-os-images/releases/latest)**
+**→ [Download the latest release](https://github.com/tuxbox-neutrino/images/releases/latest)**
 
 Deutsch: [siehe unten](#deutsch)
 
@@ -40,7 +40,7 @@ Neutrino for a PC (AppImage) is built separately:
 Fertige Neutrino-Images zum Flashen, einmal im Monat aus
 [build-environment](https://github.com/tuxbox-neutrino/build-environment) gebaut.
 
-**→ [Neuestes Release herunterladen](https://github.com/tuxbox-neutrino/tuxbox-os-images/releases/latest)**
+**→ [Neuestes Release herunterladen](https://github.com/tuxbox-neutrino/images/releases/latest)**
 
 - `…_multi.zip` – das Image (Kernel und Root-Dateisystem), der normale Download.
 - `…_recovery_emmc.zip` – Recovery-Paket. Nur nötig, wenn die Box ihr
