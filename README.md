@@ -22,7 +22,6 @@ Deutsch: [README.de.md](README.de.md)
 |---|---|
 | `…_multi.zip` | The image: kernel and root file system. This is the normal download. |
 | `…_recovery_emmc.zip` | Recovery package. Only needed when the box no longer reaches its multiboot menu or the partition layout changes. **It can erase everything in flash.** |
-| `….tuxbox.tar.bz2` | The root file system as a plain archive, for developers and special tools. |
 | `SHA256SUMS` | Checksums. Run `sha256sum -c SHA256SUMS` in the download folder. |
 
 Each release names the exact state of build-environment it was built from,
